@@ -1,5 +1,6 @@
 body{
-  background: url(bunga2.jpg);
+  background: url('img/tree.jpg'),url('img/field.jpg');
+  background-repeat: no-repeat,repeat;
   color: white;
 }
 
