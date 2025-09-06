@@ -16,4 +16,5 @@ body{
   background-color: #fff;
   padding: 20px;
   block-size: border-box;
+  display: flex;
 }
