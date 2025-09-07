@@ -5,16 +5,41 @@ html,body{
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ddd;
+  background: linear-gradient(to right, #ece9e6, #5c5c5c);
   line-height: 1.65;
   padding-bottom: 1000px;
+}
+
+h3{
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
 }
 
 .container-satu{
   width: 800px;
   margin: 50px auto;
-  background-color: #fff;
+  background-color: #fcfcfc;
   padding: 20px;
   box-sizing: border-box;
   display: flex;
+  gap: 20px;
+}
+
+.kolom-utama{
+  flex: 3;
+  order: 2;
+}
+
+.sidebar-satu{
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-dua{
+  flex: 1;
+  order: 3;
 }
